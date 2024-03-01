@@ -42,7 +42,7 @@ header h1 {
     color: black; /* Couleur du texte en noir */
     background: linear-gradient(to right, #004d00, #ffffff, #990000); /* Dégradé de texte en vert, blanc et rouge plus foncé */
     -webkit-background-clip: text; /* Pour appliquer le dégradé au texte */
-   
+    -webkit-text-fill-color: transparent; /* Rendre le texte transparent pour montrer le dégradé */
 }
 
 header p {
@@ -51,7 +51,7 @@ header p {
     color: black; /* Couleur du texte en noir */
     background: linear-gradient(to right, #004d00, #ffffff, #990000); /* Dégradé de texte en vert, blanc et rouge plus foncé */
     -webkit-background-clip: text; /* Pour appliquer le dégradé au texte */
-
+    -webkit-text-fill-color: transparent; /* Rendre le texte transparent pour montrer le dégradé */
 }
 
 nav ul {
@@ -106,14 +106,8 @@ main ul li {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
     padding: 20px 0;
     text-align: center;
-    background: linear-gradient(to right, green, white, red); /* Dégradé de fond */
-    opacity: 0.8; /* Opacité de fond transparent */
-    color: #fff; /* Couleur du texte */
-}
-
-.logo {
-    max-width: 100%; /* Largeur maximale de l'image à 100% de la largeur du conteneur parent */
-    height: auto; /* Hauteur automatique pour conserver le ratio d'aspect de l'image */
 }
