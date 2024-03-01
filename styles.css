@@ -32,6 +32,7 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px 0;
     color: #fff;
+    text-align: center; /* Centrer le contenu */
 }
 
 header h1 {
@@ -64,6 +65,7 @@ nav ul li a:hover {
 
 main {
     padding: 50px 0;
+    text-align: center; /* Centrer le contenu */
 }
 
 main h2 {
@@ -80,7 +82,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 20px 0;
-    text-align: center;
+    text-align: center; /* Centrer le contenu */
 }
 
 footer p {
