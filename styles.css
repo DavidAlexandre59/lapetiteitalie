@@ -40,14 +40,12 @@ header {
 header h1 {
     font-size: 36px;
     color: black; /* Couleur du texte en noir */
-    
 }
 
 header p {
     font-size: 18px;
     margin-bottom: 20px;
     color: black; /* Couleur du texte en noir */
-    
 }
 
 nav ul {
@@ -109,6 +107,12 @@ main ul li {
 }
 
 .logo {
-    width: 100%; /* 100% de la largeur du conteneur */
+    width: 100%; /* Pour s'adapter à la largeur du conteneur */
     height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: auto; /* La taille d'origine pour les écrans plus larges */
+    }
 }
