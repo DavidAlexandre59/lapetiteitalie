@@ -7,20 +7,22 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0; /* Assurez-vous qu'il n'y a pas de marges sur le corps */
 }
 
 .background-video {
     position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
     z-index: -1;
 }
 
 #video-bg {
     width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pour que la vidéo couvre entièrement le conteneur */
 }
 
 .container {
@@ -82,19 +84,4 @@ main ul li {
 .menu-image {
     max-width: 100%;
     height: auto;
-}
-
-.logo {
-    max-width: 100%;
-    height: auto;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
 }
