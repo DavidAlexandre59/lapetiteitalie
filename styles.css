@@ -112,3 +112,8 @@ main ul li {
     opacity: 0.8; /* Opacité de fond transparent */
     color: #fff; /* Couleur du texte */
 }
+
+.logo {
+    max-width: 100%; /* Largeur maximale de l'image à 100% de la largeur du conteneur parent */
+    height: auto; /* Hauteur automatique pour conserver le ratio d'aspect de l'image */
+}
