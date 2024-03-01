@@ -7,6 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
+    height: 100%;
+    overflow: hidden; /* Pour empêcher le défilement par défaut */
 }
 
 .background-video {
@@ -32,6 +34,10 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px 0;
     color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 header h1 {
@@ -63,7 +69,9 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 50px 0;
+    padding: 80px 0; /* Ajuster en fonction de la hauteur de l'en-tête et du pied de page */
+    height: calc(100% - 160px); /* 160px est la hauteur combinée de l'en-tête et du pied de page */
+    overflow-y: auto; /* Ajouter un défilement uniquement si nécessaire */
 }
 
 main h2 {
@@ -81,6 +89,10 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 footer p {
