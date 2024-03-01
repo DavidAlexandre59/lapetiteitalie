@@ -40,18 +40,14 @@ header {
 header h1 {
     font-size: 36px;
     color: black; /* Couleur du texte en noir */
-    background: linear-gradient(to right, #004d00, #ffffff, #990000); /* Dégradé de texte en vert, blanc et rouge plus foncé */
-    -webkit-background-clip: text; /* Pour appliquer le dégradé au texte */
-    -webkit-text-fill-color: transparent; /* Rendre le texte transparent pour montrer le dégradé */
+    
 }
 
 header p {
     font-size: 18px;
     margin-bottom: 20px;
     color: black; /* Couleur du texte en noir */
-    background: linear-gradient(to right, #004d00, #ffffff, #990000); /* Dégradé de texte en vert, blanc et rouge plus foncé */
-    -webkit-background-clip: text; /* Pour appliquer le dégradé au texte */
-    -webkit-text-fill-color: transparent; /* Rendre le texte transparent pour montrer le dégradé */
+    
 }
 
 nav ul {
