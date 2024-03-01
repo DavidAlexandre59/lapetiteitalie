@@ -82,6 +82,16 @@ main ul li {
 }
 
 .menu-image {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
+}
+
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
