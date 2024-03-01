@@ -7,39 +7,48 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="background-video">
+        <video autoplay muted loop id="video-bg">
+            <source src="background.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
     <header>
-        <img src="pizzeria.jpg" alt="Pizzeria" style="max-width: 100%; height: auto;">
-        <div class="frise"></div>
-        <h1>La Petite Italie</h1>
-        <p>Pizzeria à Saint-Amand-les-Eaux</p>
+        <div class="container">
+            <h1>La Petite Italie</h1>
+            <p>Pizzeria à Saint-Amand-les-Eaux</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
     <main>
-        <h2>Nos Pizzas</h2>
-        <ul>
-            <li>Margarita: Mozzarella, basilic, origan</li>
-            <li>Jambon: Mozzarella, jambon, basilic, origan</li>
-            <li>Regina: Mozzarella, jambon, champignons de Paris, origan</li>
-            <li>Salame Piccante: Mozzarella, chorizo, poivrons, olives</li>
-            <li>Végétariana: Mozzarella, champignons, aubergines, poivrons, artichauts, tomates cerises, olives</li>
-            <!-- Ajoutez les autres pizzas ici -->
-            <li>Capone: Mozzarella, chorizo, merguez, viande hachée, poulet, sauce barbecue</li>
-            <li>Capra Miele: Mozzarella, chèvre, noix, miel, roquette</li>
-            <li>Salmone: Mozzarella, saumon fumé, citron, basilic</li>
-            <li>Ch'tl: Mozzarella, oignons, poulet, pommes de terre, Maroilles</li>
-            <li>Amandinoise: Base crème de cèpes et truffes, Mozzarella, champignons, noix, roquette</li>
-        </ul>
+        <div class="container">
+            <h2>Nos Pizzas</h2>
+            <ul>
+                <li>Margarita: Mozzarella, basilic, origan</li>
+                <li>Jambon: Mozzarella, jambon, basilic, origan</li>
+                <li>Regina: Mozzarella, jambon, champignons de Paris, origan</li>
+                <li>Salame Piccante: Mozzarella, chorizo, poivrons, olives</li>
+                <li>Végétariana: Mozzarella, champignons, aubergines, poivrons, artichauts, tomates cerises, olives</li>
+                <!-- Ajoutez les autres pizzas ici -->
+                <li>Capone: Mozzarella, chorizo, merguez, viande hachée, poulet, sauce barbecue</li>
+                <li>Capra Miele: Mozzarella, chèvre, noix, miel, roquette</li>
+                <li>Salmone: Mozzarella, saumon fumé, citron, basilic</li>
+                <li>Ch'tl: Mozzarella, oignons, poulet, pommes de terre, Maroilles</li>
+                <li>Amandinoise: Base crème de cèpes et truffes, Mozzarella, champignons, noix, roquette</li>
+            </ul>
+        </div>
     </main>
     <footer>
-        <p>La Petite Italie - Adresse: 123 Rue de la Pizza, Saint-Amand-les-Eaux - Téléphone: 01 23 45 67 89 - Email: contact@lapetiteitalie.com</p>
-        <p>© 2024 La Petite Italie</p>
+        <div class="container">
+            <p>La Petite Italie - Adresse: 123 Rue de la Pizza, Saint-Amand-les-Eaux - Téléphone: 01 23 45 67 89 - Email: contact@lapetiteitalie.com</p>
+            <p>© 2024 La Petite Italie</p>
+        </div>
     </footer>
 </body>
 </html>
-
