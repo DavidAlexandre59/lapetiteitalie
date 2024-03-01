@@ -107,3 +107,8 @@ main ul li {
     padding: 20px 0;
     text-align: center;
 }
+
+.logo {
+    width: 100%; /* 100% de la largeur du conteneur */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
