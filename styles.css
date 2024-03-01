@@ -32,10 +32,6 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px 0;
     color: #fff;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
 }
 
 header h1 {
@@ -67,9 +63,7 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 80px 0; /* Ajuster en fonction de la hauteur de l'en-tête et du pied de page */
-    height: calc(100% - 160px); /* 160px est la hauteur combinée de l'en-tête et du pied de page */
-    overflow-y: auto; /* Ajouter un défilement uniquement si nécessaire */
+    padding: 50px 0;
 }
 
 main h2 {
@@ -77,11 +71,19 @@ main h2 {
     margin-bottom: 20px;
 }
 
-main .menu-image {
-    max-width: 100%;
-    height: auto;
+main ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 footer {
     background-color: rgba(0, 0, 0, 0.5);
-    color:
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
