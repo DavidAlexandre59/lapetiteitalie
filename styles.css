@@ -1,78 +1,89 @@
-body {
+/* Reset des marges et paddings */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* Couleur de fond de la page */
+}
+
+.background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#video-bg {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 header {
-    background-color: #d43c3c; /* Rouge du drapeau italien */
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px 0;
-    text-align: center;
-    position: relative;
+    color: #fff;
 }
 
 header h1 {
-    margin: 0;
-    color: #fff; /* Texte en blanc */
+    font-size: 36px;
 }
 
 header p {
-    margin: 5px 0 0;
-    color: #fff; /* Texte en blanc */
-}
-
-nav {
-    background-color: #009245; /* Vert du drapeau italien */
-    text-align: center;
-    padding: 10px 0;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin-right: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #fff; /* Texte en blanc */
-    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
 }
 
 nav ul li a:hover {
-    color: #f5f5f5; /* Changement de couleur au survol */
+    color: #f8e71c; /* Jaune */
 }
 
 main {
-    padding: 20px;
-    border: 5px solid #d43c3c; /* Bordure rouge */
-    background-color: #f5f5f5; /* Couleur de fond */
+    padding: 50px 0;
 }
 
 main h2 {
-    color: #d43c3c; /* Rouge du drapeau italien */
-}
-
-main ul {
-    list-style-type: none;
-    padding: 0;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 main ul li {
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
 footer {
-    background-color: #009245; /* Vert du drapeau italien */
-    color: #fff; /* Texte en blanc */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
