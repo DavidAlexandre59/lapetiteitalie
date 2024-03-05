@@ -31,20 +31,24 @@ body {
     padding: 0 20px;
 }
 
-header {
+.header-footer {
     background: linear-gradient(to right, green, white, red); /* Dégradé de gauche à droite */
     padding: 20px 0;
     text-align: center; /* Centrer le contenu */
+    color: white; /* Couleur du texte en blanc */
 }
 
-header h1 {
-    font-size: 36px;
-    color: black; /* Couleur du texte en noir */
+.header-footer p {
+    font-weight: bold; /* Mettre en gras */
 }
 
-header p {
-    font-size: 18px;
-    margin-bottom: 20px;
+.header-footer a {
+    color: white; /* Couleur des liens en blanc */
+}
+
+header h1,
+header p,
+footer p {
     color: black; /* Couleur du texte en noir */
 }
 
@@ -83,27 +87,9 @@ main h2 {
     -webkit-text-fill-color: transparent; /* Rendre le texte transparent pour montrer le dégradé */
 }
 
-main ul li {
-    font-size: 16px;
-    margin-bottom: 10px;
-    background: linear-gradient(to right, #004d00, #ffffff, #990000); /* Dégradé de texte en vert, blanc et rouge plus foncé */
-    -webkit-background-clip: text; /* Pour appliquer le dégradé au texte */
-    -webkit-text-fill-color: transparent; /* Rendre le texte transparent pour montrer le dégradé */
-}
-
 .menu-image {
     max-width: 100%;
     height: auto;
-}
-
-.footer-container {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
 }
 
 .logo {
